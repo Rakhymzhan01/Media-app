@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 📝 Posts List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Media App project! This repository is designed for students to practice their React skills by building a functional  application. The tasks are divided into three levels: Basic, Medium, and Hard. Each level introduces new concepts and challenges to enhance your understanding of React.
 
-## Available Scripts
+### Links
+1. https://www.figma.com/design/7oTkQsdn1fl6sYB2b9hKNd/nFactorial-Web-Course?node-id=9-578&t=jHQoUmCnN3Kfuh8S-0
+2. https://medium.com
+3. https://dummyjson.com/docs
 
-In the project directory, you can run:
+## 📚 Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+- [Basic Level](#basic-level)
+- [Medium Level](#medium-level)
+- [Hard Level](#hard-level)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+To get started with this project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork this repository to your GitHub account.
+2. Clone the repository to your local machine:
+   git clone https://github.com/your-username/todo-list-app.git
+    3. Install dependencies:
+       cd todo-list-app
+       npm install
+    4. Start the development server:
+       npm run dev
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🥇 Basic Level
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the Basic level, you will implement the core interface of application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tasks
+- [ ] Fetch all posts using axios
+- [ ] Implement posts design on main page.
+- [ ] Implement routing to detailed post page using dynamic routes.
 
-### `npm run eject`
+## 🥈 Medium Level
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tasks
+- [ ] Create AuthContext that checks if the user is authenticated. If the user is not authenticated, they will be redirected to the login page.
+- [ ] Create Login Page that sends request to 'https://dummyjson.com/auth/login' in order to get auth token.
+- [ ] Rewrite all your axios requests by passing auth token (check Authorizing Resources 'https://dummyjson.com/docs#intro-auth'). 
+    Example: 'https://dummyjson.com/auth/posts'
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🥇 Hard Level
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Tasks
+- [ ] Implement axios interceptor to pass auth token with requests.
+- [ ] Handle API errors in axios interceptor response.
+- [ ] Create ThemeToggle button that changes the theme of your application from dark/light to light/dark using Context API
+- [ ] Implement ADD, UPDATE, DELETE post features
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🎉
