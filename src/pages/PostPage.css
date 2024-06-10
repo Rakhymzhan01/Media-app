@@ -1,0 +1,10 @@
+.post-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
